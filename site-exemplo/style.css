@@ -44,6 +44,14 @@ footer{
     color: white;
     display: flex
 }
+div#js{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    
+}
 
 @media screen and (max-width: 992px){
     body{
