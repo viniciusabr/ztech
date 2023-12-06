@@ -1,11 +1,16 @@
-body{
+html, body{
     background-color: rgb(71, 122, 233);
-    display: flex;
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 section{
     position: static;
     top: 500px;
-    display: flex
+    display: flex;
+    justify-content: center;
 
 }
 div.child{
