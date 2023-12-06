@@ -30,7 +30,8 @@ input#txt-nome{
     left: 10%;
     border-radius: 20px;
     font-size: 2em;
-    display: flex
+    display: flex;
+    align-items: center;
 }
 input#btn-testar{
     position: absolute;
