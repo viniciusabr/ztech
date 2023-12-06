@@ -19,7 +19,7 @@ div.child{
     border-radius: 20px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.527); 
 }
-input#txt-email{
+input#txt-nome{
     position: absolute;
     top: 20%;
     left: 10%;
@@ -67,7 +67,7 @@ footer{
         border-radius: 20px;
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.527); 
     }
-    input#txt-email{
+    input#txt-nome{
         position: absolute;
         top: 20%;
         left: 10%;
