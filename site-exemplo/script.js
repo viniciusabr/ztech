@@ -52,3 +52,27 @@ function start() {
   function returnData(input) {
     return input > 10 ? input : `0${input}`
   }
+  function teste(){
+    var numero = parseFloat(document.getElementById('numero').value)
+    console.log(Number(numero))
+    if(numero > 0){
+        document.getElementById('pontos').innerHTML = numero * 2 
+
+    }
+    if(numero == 0){
+        document.getElementById('pontos').innerHTML = numero
+    }  
+
+  }
+
+  function passage(){
+    var numeros = parseInt(document.getElementById('passagem').value)
+    console.log(Number(numeros))
+    if(numeros > 0){
+        document.getElementById('adversario').innerHTML = numeros * 2 
+
+    }
+    if(numeros == 0){
+        document.getElementById('adversario').innerHTML = numeros
+    }
+  }

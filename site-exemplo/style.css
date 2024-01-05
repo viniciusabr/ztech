@@ -17,22 +17,74 @@ div#cronometro{
     color: white;
     font-size: 65pt;
     text-align: center;
-    top: 10px;
+    top: 60px;
 }
 button{
+    width: 140px;
+    height: 140px;
     position: relative;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 100px;
     font-size: 20pt;
     font-family: monospace;
     left: 70px;
+    padding: 0;
+    margin: 0;
     
 }
 div#botoes{
-    padding: 50px;
+    position: absolute;
+    top: 450px;
+    padding: 0;
+    margin: 0;
     
 }
-@media(max-width: 450px) {
+span{
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px black;
+    width: 200px;
+    height: 200px;
+}
+div#placar{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    font-size: 150pt;
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+input#numero{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    width: 33px;
+}
+div#teste{
+    width: 100px;
+    height: 100px;
+    
+}
+
+span#pontos{
+    position: absolute;
+    width: 200px;
+    text-align: center;
+}
+input#passagem{
+    position: relative;
+    top: 50px;
+    left: 250px;
+    width: 33px;
+}
+span#adversario{
+    position: absolute;
+    left: 310px;
+}
+@media(max-width: 520px) {
     form{
         width: 300px;
         height: 300px;
