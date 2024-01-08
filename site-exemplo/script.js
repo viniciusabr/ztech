@@ -52,27 +52,27 @@ function start() {
   function returnData(input) {
     return input > 10 ? input : `0${input}`
   }
-  function teste(){
-    var numero = parseFloat(document.getElementById('numero').value)
-    console.log(Number(numero))
-    if(numero > 0){
-        document.getElementById('pontos').innerHTML = numero * 2 
+  function placar(){
+    var quatro = Number(document.getElementById('quatro').value)
+    var tres = Number(document.getElementById('tres').value)
+    var dois = Number(document.getElementById('dois').value)
+    var quatro1 = Number(document.getElementById('quatro1').value)
+    var tres2 = Number(document.getElementById('tres1').value)
+    var dois3 = Number(document.getElementById('dois1').value)
 
-    }
-    if(numero == 0){
-        document.getElementById('pontos').innerHTML = numero
-    }  
+    var soma1 = 0
+    var soma2 = 0
+    soma1 = ((quatro*4) + (tres*3) + (dois*2))
+    soma2 = ((quatro1*4) + (tres2*3) + (dois3*2))
+
+    
+    
+
+    document.getElementById('pontos1').innerHTML = soma1
+    document.getElementById('pontos2').innerHTML = soma2
+
 
   }
+ 
 
-  function passage(){
-    var numeros = parseInt(document.getElementById('passagem').value)
-    console.log(Number(numeros))
-    if(numeros > 0){
-        document.getElementById('adversario').innerHTML = numeros * 2 
-
-    }
-    if(numeros == 0){
-        document.getElementById('adversario').innerHTML = numeros
-    }
-  }
+  
