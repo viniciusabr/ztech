@@ -65,14 +65,33 @@ function start() {
     soma1 = ((quatro*4) + (tres*3) + (dois*2))
     soma2 = ((quatro1*4) + (tres2*3) + (dois3*2))
 
-    
-    
-
     document.getElementById('pontos1').innerHTML = soma1
     document.getElementById('pontos2').innerHTML = soma2
 
 
-  }
- 
 
+  }
+  function adicionar(){
+    var nome = document.getElementById('enter').value
+
+    document.getElementById('enter').addEventListener('keypress', function(event){
+        if(event.key === 'Enter'){
+            document.getElementById('nome').innerHTML = nome
+        }
+    })
+
+    
+
+
+    
+
+    
+
+    
+
+
+  }
+
+
+  
   

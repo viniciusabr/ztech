@@ -11,23 +11,29 @@
         <div id="cronometro">
           <span id="horas">00</span>:<span id="minutos">00</span>:<span id="segundos">00</span>:<span id="milisegundos">000</span>
         </div>
-        <div id="placar">
-            <span id="pontos1">0</span>
-            <input type="number"  id="quatro" onmouseenter="placar()">
-            <input type="number"  id="tres" onclick="placar()">
-            <input type="number"  id="dois" onclick="placar()">
-            <span id="pontos2">0</span>
-            <input type="number"  id="quatro1" onclick="placar()">
-            <input type="number"  id="tres1" onclick="placar()">
-            <input type="number"  id="dois1" onclick="placar()">
+
+        <div id="atleta1">
+                <span id="pontos1">0</span>
+                <input type="number" id="quatro" onclick="placar()">
+                <input type="number"  id="tres" onclick="placar()">
+                <input type="number"  id="dois" onclick="placar()">
+                <label for="nome" id="nome">Nome</label>
+                
+
         </div>
-        
-    
+        <div id="atleta2">              
+                <span id="pontos2">0</span>
+                <input type="number"  id="quatro1" onclick="placar()">
+                <input type="number"  id="tres1" onclick="placar()">
+                <input type="number"  id="dois1" onclick="placar()">
+                <label for="nomeatleta2" id="nomeatleta2">Nome do atleta</label>
+        </div>  
         <div id="botoes">
             <button type="button" name="start">Inicio</button>
             <button type="button" name="pause">Pausar</button>
             <button type="button" name="reset">Reiniciar</button>
         </div>
+        <input id="enter" type="text" value="" onclick="adicionar()" >
       </form>
       
     <script src="script.js"></script>
