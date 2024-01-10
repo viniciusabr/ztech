@@ -221,3 +221,230 @@ button#start{
     position: absolute;
     top: 100px;
 }
+@media (max-width: 700px) {
+    form{
+        width: 100%;
+        background-color: #000000;
+        box-shadow: 0px 0px 17px black;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+    }
+    div#cronometro{
+        position: relative;
+        color: rgb(80, 218, 80);
+        font-size: 65pt;
+        text-align: center;
+        top: 60px;
+    }
+    button{
+        position: relative;
+        text-align: center;
+        font-size: 20pt;
+        font-family: monospace;
+        left: 70px;
+        padding: 0;
+        margin: 0;
+        
+    }
+    div#botoes{
+        position: absolute;
+        left: 1400px;
+        top: 300px;
+        padding: 0;
+        margin: 0;
+    }
+    span{
+        border-radius: 2px;
+        box-shadow: 0px 0px 1px rgb(0, 0, 0);
+        width: 200px;
+        height: 200px;
+    }
+    
+    div#teste{
+        width: 100px;
+        height: 100px;
+        
+    }
+    
+    span#pontos1{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        top: 70px;
+        left: 320px;
+        text-align: center;
+        background-color: blue;
+        position: absolute;
+        font-size: 110pt;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+    
+    span#pontos2{
+        position: absolute;
+        width: 270px;
+        height: 270px;
+        left: 800px;
+        top: 60px;
+        text-align: center;
+        background-color: rgb(182, 175, 175);
+        color: rgb(255, 255, 255);
+        font-size: 180pt;
+        padding: 0;
+        margin: 0;
+        
+    }
+    input#tres{
+        position: absolute;
+        top: 250px;
+        left: 70px;
+        width: 33px;
+    }
+    input#dois{
+        position: absolute;
+        top: 320px;
+        left: 70px;
+        width: 33px;
+    }
+    input#quatro{
+        position: absolute;
+        top: 180px;
+        left: 70px;
+        width: 33px;
+    }
+    input#tres1{
+        position: absolute;
+        top: 310px;
+        left: 160px;
+        width: 33px;
+    }
+    input#dois1{
+        position: absolute;
+        top: 310px;
+        left: 80px;
+        width: 33px;
+    }
+    input#quatro1{
+        position: absolute;
+        top: 310px;
+        width: 33px;
+    }
+    div#atleta1{
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        height: 400px;
+        top: 150px;
+    }
+    div#atleta2{
+        position: absolute;
+        background-color: blue;
+        width: 100%;
+        height: 400px;
+        top: 551px;
+    }
+    input#enter{
+        position: absolute;
+        left: 1600px;
+        top: 200px;
+    }
+    label#nome{
+        font-size: 50pt;
+    }
+    span#vantagem1{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 90px ;
+        text-align: center;
+        background-color: yellow;
+        position: absolute;
+        font-size: 70pt;
+        color: white;
+        padding: 0;
+        margin: 0;
+        left: 200px;
+    }
+    span#punicao1{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 90px ;
+        text-align: center;
+        background-color: red;
+        font-size: 70pt;
+        color: white;
+        padding: 0;
+        margin: 0;
+        left: 490px;
+    }
+    span#vantagem2{
+        position: absolute;
+        width: 200px;
+        top: 90px ;
+        text-align: center;
+        background-color: yellow;
+        position: absolute;
+        font-size: 130pt;
+        color: white;
+        padding: 0;
+        margin: 0;
+        left: 400px;
+    }
+    span#punicao2{
+        position: absolute;
+        width: 200px;
+        top: 90px ;
+        text-align: center;
+        background-color: red;
+        font-size: 130pt;
+        color: white;
+        padding: 0;
+        margin: 0;
+        left: 1200px;
+    }
+    input#pun{
+        position: absolute;
+        top: 310px;
+        left: 613px;
+        width: 33px;
+    }
+    input#van{
+        position: absolute;
+        top: 258px;
+        left: 613px;
+        width: 33px;
+    }
+    label#posicaoMP{
+        position: absolute;
+        top: 150px;
+        left: 10px;
+    }
+    label#posicaoPG{
+        position: absolute;
+        top: 220px;
+        left: 10px;
+    }
+    label#posicaoQJBR{
+        position: absolute;
+        top: 290px;
+        left: 10px;
+    }
+    label#puni{
+        position: absolute;
+        top: 287px;
+        left: 605px;
+    }
+    label#vanta{
+        position: absolute;
+        top: 230px;
+        left: 600px;
+    }
+    button#start{
+        position: absolute;
+        top: 100px;
+    }
+    
+}
