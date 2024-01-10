@@ -6,34 +6,43 @@
     <title>Cronômetro</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="cadastro()">
     <form name="form_main">
         <div id="cronometro">
           <span id="horas">00</span>:<span id="minutos">00</span>:<span id="segundos">00</span>:<span id="milisegundos">000</span>
         </div>
 
-        <div id="atleta1">
-                <span id="pontos1">0</span>
-                <input type="number" id="quatro" onclick="placar()">
-                <input type="number"  id="tres" onclick="placar()">
-                <input type="number"  id="dois" onclick="placar()">
-                <label for="nome" id="nome">Nome</label>
-                
+         <div id="atleta1">
+           <span id="pontos1">0</span>
+           <input type="number" id="quatro" onclick="placar()">
+           <input type="number"  id="tres" onclick="placar()">
+           <input type="number"  id="dois" onclick="placar()">
+           <label for="nome" id="nome">Nome</label>
+           <span id="punicao1">0</span>
+           <span id="vantagem1" >0</span>
+           <input type="number" id="van" onclick="add()">
+           <input type="number" id="pun" onclick="add()">
+           <label for="posicaos" id="posicaoMP">Montada/Pegada de costas</label>
+           <label for="posicaosPG" id="posicaoPG">Passagem de guarda</label>
+           <label for="posicaos" id="posicaoQJBR">Queda/Joelho na Barriga/Raspagem</label>
+           <label for="punicoes" id="puni">Punição</label>
+           <label for="vantagens" id="vanta">Vantagem</label>
 
-        </div>
+            </div>
         <div id="atleta2">              
                 <span id="pontos2">0</span>
                 <input type="number"  id="quatro1" onclick="placar()">
                 <input type="number"  id="tres1" onclick="placar()">
                 <input type="number"  id="dois1" onclick="placar()">
                 <label for="nomeatleta2" id="nomeatleta2">Nome do atleta</label>
+                <span id="punicao2">0</span>
+                <span id="vantagem2">0</span>
         </div>  
         <div id="botoes">
-            <button type="button" name="start">Inicio</button>
-            <button type="button" name="pause">Pausar</button>
-            <button type="button" name="reset">Reiniciar</button>
+            <button type="button" name="start" id="start">Inicio</button>
+            <button type="button" name="pause" id="pause">Pausar</button>
+            <button type="button" name="reset" id="reset">Reiniciar</button>
         </div>
-        <input id="enter" type="text" value="" onclick="adicionar()" >
       </form>
       
     <script src="script.js"></script>

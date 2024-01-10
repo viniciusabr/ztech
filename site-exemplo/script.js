@@ -59,6 +59,7 @@ function start() {
     var quatro1 = Number(document.getElementById('quatro1').value)
     var tres2 = Number(document.getElementById('tres1').value)
     var dois3 = Number(document.getElementById('dois1').value)
+    var teste = 0
 
     var soma1 = 0
     var soma2 = 0
@@ -76,22 +77,40 @@ function start() {
 
     document.getElementById('enter').addEventListener('keypress', function(event){
         if(event.key === 'Enter'){
-            document.getElementById('nome').innerHTML = nome
+            document.getElementById('nome').innerHTML = nome.toUpperCase()
         }
-    })
-
-    
-
-
-    
-
-    
-
-    
+    })  
 
 
   }
+  function add(){
+    var outro = Number(document.getElementById('van').value)
+    var puni = Number(document.getElementById('pun').value)
+    var soma1 = 0
+    var soma2 = 0
+    
+    if(soma1 >= 0){
+        soma1 =  outro * 1
+    }
+    if(soma2>=0){
+        soma2 = puni*1
+    }
 
+    document.getElementById('vantagem1').innerHTML = soma1
+    document.getElementById('punicao1').innerHTML = soma2
+  }
+  function cadastro(){
+    var nome1 = window.prompt('Digite o nome do primeiro atleta:')
+    var nome2 = window.prompt('Digite o nome do segundo atleta:')
+
+    document.getElementById('nome').innerHTML = nome1.toUpperCase()
+    document.getElementById('nomeatleta2').innerHTML = nome2.toUpperCase()
+
+
+  }
+  
+
+ 
 
   
   
